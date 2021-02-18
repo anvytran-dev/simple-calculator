@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Count Rainbow Poofs</title>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css"> 
+	</head>
+	<body>
+		<section class = "secBeg">
+			<section class = "secIntr">
+				<h2>Fufi's Rainbow Poofs</h2>
+				<p>Fufi needs your help counting!</p>
+				<span>Enter</span>
+			</section>
+		</section>
+		<section class = "secProb hidden">
+			<h2 class = "h2Help" id = "h2Help1">Help Fufi #1</h2>
+			<h2 class = "h2Help" id = "h2Help2">Help Fufi #2</h2>
+			<h2 class = "h2Help" id = "h2Help3">Help Fufi #3</h2>
+			<h2 class = "h2Help" id = "h2Help4">Help Fufi #4</h2>
+		</section>
+		<section class = "secAdd hidden">
+			<h2>Fufi wants rainbow poofs for breakfast and lunch. Ask Fufi how many she wants so you can pluck them from the Golden Field.</h2>
+			<section class = "secForm">
+				<form class = "formMath">
+					<label for></label>
+						<input id = "little1" placeholder = "Breakfast">
+						<span> + </span>
+						<input id = "little2" placeholder = "Lunch">
+				</form>
+
+				<button id = "equalAdd"> = </button>
+			</section>
+
+			<h2 id = "displayAdd"></h2>
+			<h2 class = "h2Yum">Yummy Poofs</h2>
+			<h3 class = "h3Cont">Continue helping!</h3>
+		</section>
+
+		<section class ="secMin hidden">
+			<h2>You find Fufi under the Wisdom Mushroom, her eyes are droopy and she tells you her stomach hurts. Fufi ate too much and doesn't remember how many she had. There are still some poofs in her basket. Ask her how many she plucked to determine how many she ate.</h2>
+			<section class = "secForm">	
+				<form class = "formMath"> 
+					<label for></label>
+					<input id = "notHungry1" placeholder = "Original amount">
+					<span> - </span>
+					<input id = "notHungry2" placeholder = "Uneaten amount">
+				</form>
+
+				<button id = "equalMinus"> = </button>
+
+			</section>
+
+			<h2 id = "displayDiff"></h2>
+			<h2 class = "h2Yum">Yummy Poofs</h2>
+			<h3 class = "h3ContMin">Continue helping!</h3>
+		</section>
+
+		<section class = "secDiv hidden">
+			<h2>Fufi's friends came to visit unannounced! She does not have time to go pluck poofs and must do with what she already has in her basket. How many poofs will each get?</h2>
+			<section class = "secForm">
+				<form class = "formMath">
+					<label for></label>
+					<input id = "friends1" placeholder = "# of friends">
+					<span> / </span>
+					<input id = "friends2" placeholder = "# of poofs">
+				</form>
+
+				<button id = "equalDivide"> = </button>
+			</section>
+
+			<h2 id = "displayQuo"></h2>
+			<h2 class = "h2Yum">Yummy Poofs</h2>
+			<h3 class = "h3ContDiv">Continue helping!</h3>
+		</section>
+
+		<section class = "secMul hidden">
+			<h2>Fufi will go to a party in the Tulip Forest. She must bring poofs for her friends. Ask Fufi how many friends are coming and how many Fufus can eat.</h2>
+			<section class = "secForm">
+				<form class = "formMath">
+					<label for></label>
+					<input id = "party1" placeholder = "# of friends">
+					<span> * </span>
+					<input id = "party2" placeholder = "how many can a fufu eat">
+				</form>
+
+				<button id = "equalMultiply"> = </button>
+			</section>
+
+			<h2 id = "displayProd"></h2>
+			<h2 class = "h2Yum">Yummy Poofs</h2>
+			<h3 class = "h3ContMul">Continue helping!</h3>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
